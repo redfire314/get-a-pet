@@ -1,6 +1,5 @@
 # Get-a-Pet
 ### React & Express
-#### My **first** full-stack CRUD App - study project
 
 ## Features
 - User authentication
