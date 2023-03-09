@@ -1,0 +1,50 @@
+.pet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em 1em;
+}
+
+.pet:nth-child(even) {
+    background-color: var(--color-secondary);
+}
+
+.pet img {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.pet button {
+    padding: 1px 3px;
+    border: 1.75px solid var(--color-main);
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.about ul,
+.action ul {
+    list-style: none;
+    margin-left: 1em;
+}
+
+.action div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action a {
+    color: var(--color-main);
+    text-decoration: none;
+}
+
+.action a:hover {
+    text-decoration: underline;
+}

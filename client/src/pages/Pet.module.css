@@ -1,0 +1,21 @@
+.pet {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.pet img {
+    max-width: 512px;
+}
+
+.pet h3 {
+    text-align: center;
+}
+
+.pet ul {
+    list-style: none;
+}
+
+.pet div {
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+.pet {
+    display: inline-block;
+    margin: 0.5em;
+    border: 1px solid var(--color-main);
+    border-radius: 5px;
+}
+
+.pet img {
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+}
+
+.pet h3,
+.pet div {
+    text-align: center;
+}
+
+.pet ul,
+.pet div a {
+    padding: 0.5em;
+    text-decoration: none;
+    list-style: none;
+}
+
+.pet div a:hover {
+    text-decoration: underline;
+}
+
+.pet > :last-child {
+    background-color: var(--color-main);
+}
+
+.pet__actions a {
+    color: white;
+}

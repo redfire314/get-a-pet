@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-main);
+    padding: 0.5em 0;
+}
+
+.navbar img {
+    width: 48px;
+    margin-left: 1em;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar li {
+    margin-right: 1em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    transition: all 0.2s;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar button {
+    padding: 4px 8px;
+    border: 2px solid var(--color-secondary);
+    border-radius: 5px;
+    font-size: 1em;
+    color: var(--color-secondary);
+    background-color: transparent;
+    transition: all 0.2s;
+}
+
+.navbar button:hover {
+    cursor: pointer;
+    background-color: var(--color-secondary);
+    color: var(--color-main);
+}

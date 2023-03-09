@@ -1,0 +1,22 @@
+:root {
+    --color-main: #00a5cf;
+    --color-secondary: #ebfbff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+    min-width: 256px;
+    width: fit-content;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main h1 {
+    text-align: center;
+}

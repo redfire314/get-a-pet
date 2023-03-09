@@ -1,0 +1,16 @@
+.redirect {
+    margin-top: 1em;
+}
+
+.redirect a {
+    color: var(--color-main);
+    text-decoration: none;
+}
+
+.redirect a:hover {
+    text-decoration: underline;
+}
+
+form > * {
+    margin-bottom: 0.5rem;
+}

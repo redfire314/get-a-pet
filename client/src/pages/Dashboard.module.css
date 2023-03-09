@@ -1,0 +1,18 @@
+.action a {
+    color: var(--color-main);
+    text-decoration: none;
+}
+
+.action a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    max-width: 1366px;
+    margin-inline: auto;
+    padding: 1rem;
+}
+
+.wrapper h2 {
+    margin-top: 2rem;
+}
